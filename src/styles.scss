@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.website {
+  font: normal 14px sans-serif;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  background-color: #313b3f;
+  color: #d9a74a;
+  padding: 10px;
+  a {
+    float: right;
+    color: #d9a74a;
+    text-decoration: none;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.component-wrapper {
+  border: 1px solid #313b3f;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 15px;
+  padding-bottom: 10px;
+  h3 {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    background-color: #03658c;
+    color: white;
+  }
+  h3 + .service-data {
+    margin-bottom: 10px;
+  }
+  .service-data {
+    padding: 0 5px 0 15px;
+    font: normal 14px sans-serif;
+    margin: 0;
+  }
+}
