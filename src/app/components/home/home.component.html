@@ -1,5 +1,5 @@
 <div class="component-wrapper">
   <h3>Home Component</h3>
-  <p class="service-data">Window Width Service: {{ windowWidth }}</p>
+  <p class="service-data" *ngIf="windowWidth> 500">Window Width Service: {{ windowWidth }}</p>
   <p class="service-data">Date Service: {{ currentDate }}</p>
 </div>
